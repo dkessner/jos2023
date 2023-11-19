@@ -107,42 +107,108 @@ $ R_a \circ R_b = \text{rotation?} $
 
 class: normal
 
-# blah
+# Linear algebra
+
 <hr/>
 
-The quick brown fox jumps over the lazy dog.
-The quick brown fox jumps over the lazy dog.
-The quick brown fox jumps over the lazy dog.
-The quick brown fox jumps over the lazy dog.
-The quick brown fox jumps over the lazy dog.
+.row[
+.column[
 
-
-```python
-def hello_world():
-    print("Hello, world!")
-```
-
-```java
-public class Hello {
-    public static void main(String args[]) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-<br/>
 $$
-\begin{equation}
-\int_0^{\pi} \sin x \, dx = 2
-\end{equation}
-$$
-
-
-$$\begin{bmatrix}
+R_x = \begin{bmatrix}
 1 & 0 & 0 \\\\
 0 & -1 & 0 \\\\
 0 & 0 & -1
-\end{bmatrix}$$
+\end{bmatrix}
+$$
+
+<br/>
+
+$$
+R_y = \begin{bmatrix}
+-1 & 0 & 0 \\\\
+0 & 1 & 0 \\\\
+0 & 0 & -1
+\end{bmatrix}
+$$
+
+<br/>
+
+$$
+R_z = \begin{bmatrix}
+-1 & 0 & 0 \\\\
+0 & -1 & 0 \\\\
+0 & 0 & 1
+\end{bmatrix}
+$$
 
 
+
+]
+
+.column[
+
+$$
+R_x \begin{pmatrix} a \\\\ b \\\\ c \end{pmatrix}
+ = \begin{pmatrix} a \\\\ -b \\\\ -c \end{pmatrix}
+$$
+
+<br/> <br/>
+<br/> <br/>
+
+$R_x$ flips $y$ and $z$ coordinates.  
+
+$R_y$ flips $x$ and $z$ coordinates.  
+
+<hr/>
+
+$R_z$ flips $x$ and $y$ coordinates.  
+
+]
+
+]
+
+---
+
+class: normal
+
+# Geometric algebra
+
+<hr/>
+
+.row[
+.column[
+
+<img src="pix/e1e2e3.png" width="80%"/>
+
+]
+
+.column[
+
+Rotation about $z$-axis is represented by the
+_bivector_ $e_1 e_2$.
+
+<br/>
+
+$$
+e_1 e_1 = e_2 e_2 = e_3 e_3 = 1
+$$
+
+<br/>
+
+$$
+(e_1 e_2)(e_2 e_3) = e_1 e_3
+$$
+
+<br/>
+
+Quaternions:   
+
+$$
+i j = k
+$$
+
+]
+
+]
 
