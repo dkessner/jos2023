@@ -33,6 +33,19 @@ hr {
     font-size: 18pt; /* 26pt in ppt */
 }
 
+.title h3 {
+    color: #fff; /* white */
+    font-size: 18pt; 
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.title img {
+    float: left;
+    padding: 10px;
+}
+
+
 .title .content {
     width: 70%;
 }
@@ -50,6 +63,11 @@ hr {
 }
 
 .column {
+  flex: 50%;
+  padding: 1%;
+}
+
+.column_small {
   flex: 50%;
   padding: 1%;
 }

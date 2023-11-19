@@ -6,19 +6,21 @@ class: title
 
 <hr/>
 
-## SUBTITLE IF NEEDED
+## Joy of ~~Science~~ Math 2023
+## Darren Kessner
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<br/> <br/> <br/> <br/>
+<br/> <br/> <br/> <br/>
 <br/>
 
-<img src="ei_icon.png" width="15%"/>
+<img src="ei_icon.png" width="20%"/>  
+
+### <br/> 
+### &nbsp; &nbsp; Ellison Institute   
+### &nbsp; &nbsp; of Technology
+
+
+
 ]
 
 ---
@@ -28,7 +30,7 @@ layout:true
 class: normal
 
 .footer[
-    
+Ellison Institute  of Technology
 ]
 
 ---
