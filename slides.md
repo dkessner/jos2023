@@ -55,8 +55,16 @@ class: normal
 .column[
 
 <br/><br/>
-<br/><br/>
-<br/><br/>
+<br/>
+
+
+
+Let $R_x$, $R_y$, $R_z$ be $180^\circ$ rotations around the coordinate
+axes.
+
+<br/>
+
+Observation:
 
 $$
 \begin{align}
