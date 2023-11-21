@@ -2,7 +2,7 @@
 class: title
 
 .content[
-# Contact juggling and rotations in 3D
+# Contact Juggling and 3D Rotations 
 
 <hr/>
 

@@ -23,6 +23,7 @@ hr {
     color: #fff;
 }
 
+
 .title h1 {
     color: #fff; /* white */
     font-size: 35pt; /* 58pt in ppt */
@@ -31,6 +32,11 @@ hr {
 .title h2 {
     color: #d6d2c4; /* natural white */
     font-size: 18pt; /* 26pt in ppt */
+}
+
+.title del {
+    text-decoration-color: #000;
+    text-decoration-thickness: 4px;
 }
 
 .title h3 {
